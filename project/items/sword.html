@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enchanted Sword - Mystical Emporium</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400&display=swap" rel="stylesheet">
+    <style>
+        .item-details {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .item-image {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            margin: 0 auto 2rem;
+            display: block;
+            border-radius: 8px;
+        }
+
+        .item-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .stat {
+            background: var(--primary-color);
+            color: white;
+            padding: 1rem;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        .stat-label {
+            color: var(--accent-color);
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="../categories.html">Categories</a>
+                    <div class="dropdown-content">
+                        <a href="../categories/weapons.html">Weapons</a>
+                        <a href="../categories/potions.html">Potions</a>
+                        <a href="../categories/armor.html">Armor</a>
+                    </div>
+                </li>
+                <li><a href="../contact.html">Contact</a></li>
+                <li><a href="../imprint.html">Imprint</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="item-details">
+            <h1>Enchanted Sword</h1>
+            <img src="../images/sword.jpg" alt="Enchanted Sword" class="item-image">
+            
+            <div class="item-stats">
+                <div class="stat">
+                    <div class="stat-label">Price</div>
+                    <div class="stat-value">1000 gold</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-label">Damage</div>
+                    <div class="stat-value">25-30</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-label">Mana Cost</div>
+                    <div class="stat-value">10 per swing</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-label">Durability</div>
+                    <div class="stat-value">100/100</div>
+                </div>
+            </div>
+
+            <h2>Description</h2>
+            <p>A masterfully crafted sword imbued with ancient magic. This blade glows with an ethereal blue light and can cut through both physical and magical defenses. Perfect for any adventurer seeking to enhance their combat capabilities.</p>
+
+            <h2>Special Abilities</h2>
+            <ul>
+                <li>Magical Damage Bonus: +5 against magical creatures</li>
+                <li>Frost Enchantment: 20% chance to freeze enemies</li>
+                <li>Mana Regeneration: +2 mana per second while equipped</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: magic@mysticalemporium.com</p>
+                <p>Phone: +1 234 567 890</p>
+            </div>
+            <div class="footer-section">
+                <h3>Opening Hours</h3>
+                <p>Mon-Fri: 9am - 6pm</p>
+                <p>Sat-Sun: 10am - 4pm</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="../contact.html">Contact</a></li>
+                    <li><a href="../imprint.html">Imprint</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Mystical Emporium. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
